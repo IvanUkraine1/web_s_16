@@ -1,0 +1,142 @@
+:root {
+    --accent: #4985FF;
+    --dark: #323232;
+    --grey: #999999;
+    --light_grey: #E0E0E0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("./image/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 900px;
+    font-size: 18px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    margin-right: 405px;
+    margin-bottom: 202px;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container p {
+    letter-spacing: 1.8px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0 50px 0;  
+}
+
+.btn {
+    padding: 14px 39px;
+    background-color: #4985FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-c-a {
+    text-align: center;
+}
+
+.create-apps {
+    margin: 110px 0 105px 0;
+}   
+
+.list-c-a {
+    display: flex;
+    margin: 70px 0 55px 0;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.c-t {
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.c-t p {
+    margin-top: 50px;
+    color: var(--grey);
+}
+
+.grey-circle {  /*Це*/
+    width: 110px;
+    height: 110px;
+    padding: 10px;  /*Це*/
+    box-sizing: border-box;  /*Це*/
+    border-radius: 50%;
+    border: 1px solid var(--light_grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 30px; /*Це*/
+}
+
+.accent-circle {  /*Це*/
+    width: 90px;  /*Це*/
+    height: 90px;  /*Це*/
+    border-radius: 50%;  /*Це*/
+    border: 1px solid var(--accent);  /*Це*/
+    display: flex;  /*Це*/ 
+    align-items: center;  /*Це*/
+    justify-content: center;
+}
+
+.list-c-a li{
+    display: flex;
+}
+
+.c-a-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    text-align: start;
+    gap: 12px;  /*Це*/
+} 
+
+.c-a-text p { /*Це*/
+    color: var(--grey); /*Це*/
+}
