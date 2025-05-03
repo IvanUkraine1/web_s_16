@@ -68,6 +68,8 @@ h1 {
     color: #FFFFFF;
     border-radius: 20px;
     border: none;
+
+    max-height: 45px;
 }
 
 ul {
@@ -102,26 +104,26 @@ h2 {
     color: var(--grey);
 }
 
-.grey-circle {  /*Це*/
+.grey-circle {
     width: 110px;
     height: 110px;
-    padding: 10px;  /*Це*/
-    box-sizing: border-box;  /*Це*/
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 50%;
     border: 1px solid var(--light_grey);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 5px 0 30px; /*Це*/
+    margin: 0 5px 0 30px;
 }
 
-.accent-circle {  /*Це*/
-    width: 90px;  /*Це*/
-    height: 90px;  /*Це*/
-    border-radius: 50%;  /*Це*/
-    border: 1px solid var(--accent);  /*Це*/
-    display: flex;  /*Це*/ 
-    align-items: center;  /*Це*/
+.accent-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -134,9 +136,73 @@ h2 {
     flex-direction: column;
     margin-top: 45px;
     text-align: start;
-    gap: 12px;  /*Це*/
+    gap: 12px;
 } 
 
-.c-a-text p { /*Це*/
-    color: var(--grey); /*Це*/
+.c-a-text p {
+    color: var(--grey);
+}
+
+.himg {
+    width: 500px;
+    height: 400px;
+}
+
+.hpos {
+    display: flex;
+    gap: 120px;
+}
+
+.hleft p {
+    color: var(--grey);
+}
+
+.hleft {
+    max-width: 489px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.hleft a {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.highstd {
+    background-color: #F6F6F8;
+    padding: 100px 0 70px;
+}
+
+.hlist {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 160px;
+}
+
+.hli {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+.hli p {
+    grid-column: 2 span;
+    color: var(--grey);
+    font-size: 12px;
+}
+.hli h3 {
+    font-size: 36px;
+}
+
+.ourspec {
+    background: linear-gradient(to bottom,#504DC2 0%,#5F12D0 50%,#ffffff 50%,#ffffff 100%);
+    padding: 100px 0 170px;
+}
+.ostext {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.ostext h2 {
+    width: 540px;
 }
