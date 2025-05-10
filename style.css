@@ -206,3 +206,52 @@ h2 {
 .ostext h2 {
     width: 540px;
 }
+
+.oscard img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-position: center;
+    background-size:contain;
+    object-fit: cover;
+}
+.oscard {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.oscards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.oscard p {
+    color: var(--grey);
+}
+.oscard a {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.oscard span {
+    color: var(--accent);
+}
+
+.ourp {
+    background-color: #F6F6F8;
+    padding: 100px 0 130px;
+    text-align: center;
+}
+.oplist {
+    display: flex;
+    gap: 30px;
+    margin: 70px 0 50px;
+    flex-wrap: wrap;
+}
+.ourp h2{
+    margin-bottom: 50px;
+}
+.ourp p {
+    color: var(--grey);
+}
