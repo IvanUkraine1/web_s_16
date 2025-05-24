@@ -35,8 +35,7 @@ a {
 
 nav {
     display: flex;
-    justify-content: end;
-    margin-right: 405px;
+    justify-content: center;
     margin-bottom: 202px;
     padding: 40px;
 }
@@ -87,6 +86,8 @@ ul {
 
 .list-c-a {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 70px 0 55px 0;
 }
 
@@ -138,6 +139,7 @@ h2 {
     margin-top: 45px;
     text-align: start;
     gap: 12px;
+    max-width: 228px;
 } 
 
 .c-a-text p {
@@ -296,4 +298,58 @@ h2 {
 
 .fc {
     text-align: center;
+}
+
+.fc p {
+    color: var(--grey);
+    font-size: 16px;
+    margin: 20px 0 30px;
+}
+
+.fc .fc_p{
+    font-size: 13px;
+    margin: 35px 0 0;
+}
+
+.form {
+    padding: 85px 0;
+}
+
+form .btn {
+    width: 190px;
+    height: 45px;
+    border-radius: 0;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    font-size: 16px;
+}
+
+input {
+    padding: 15px 33px 13px;
+    width: 300px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    outline: none;
+    margin-right: -4px;
+    border: none;
+    box-shadow: -11px 0px 43px -12px rgba(0,0,0,1);
+}
+
+footer {
+    display: flex;
+    padding: 70px 0 40px;
+    background-color: #F6F6F8;
+}
+.footcont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.footlist {
+    display: grid;
+    gap: 30px;
+}
+.footli:not(:first-child) {
+    color: var(--grey);
 }
